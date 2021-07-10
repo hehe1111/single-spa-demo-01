@@ -6768,6 +6768,11 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
+single-spa-vue@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.nlark.com/single-spa-vue/download/single-spa-vue-2.4.1.tgz#f6b111544fc0ae044558f71b62a0f869d67c00e8"
+  integrity sha1-9rERVE/ArgRFWPcbYqD4adZ8AOg=
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.nlark.com/slash/download/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
