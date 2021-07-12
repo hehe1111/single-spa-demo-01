@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "dev": "yarn run serve",
+    "echo": "echo layout npm version: $npm_package_version"
   },
   "dependencies": {
     "core-js": "^3.6.5",
