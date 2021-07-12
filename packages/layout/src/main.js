@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import { registerApplication, start } from 'single-spa'
+// import { registerApplication, start } from '../../../lyn-single-spa.js'
 
 Vue.config.productionTip = false
 
@@ -56,6 +57,7 @@ const apps = [
     // 传递给子应用的对象，这个很重要，该配置告诉react子应用自己的容器元素是什么，这块儿和vue子应用的集成不一样，官网并没有说这部分，或者我没找到，是通过看single-spa-react源码知道的
     customProps: {
       domElement: document.getElementById('microApp'),
+      name: "app3", // 仅为了支持 lyn-single-spa.js
     }
   }
 ]
